@@ -11,7 +11,7 @@ xc7z010clg400-1
 ## detail
 ### conv
 You should see the following lines
-
+```
 [info] [51.767] List(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 [info] [51.767] 
 [info] [51.767] sw: 
@@ -41,6 +41,7 @@ Exit Code: 0
 [info] All tests passed.
 [info] Passed: Total 1, Failed 0, Errors 0, Passed 1
 [success] Total time: 113 s, completed 2019-6-17 15:18:59
+```
 If you see the above then...
 ## result
 ![](https://github.com/zhangzek/FPGA_cnn_MNIST/blob/master/result.png)
