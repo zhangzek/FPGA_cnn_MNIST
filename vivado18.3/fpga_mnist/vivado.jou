@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Aug  3 17:40:58 2020
+# Process ID: 3588
+# Current directory: D:/Project/vivado_pro/fpga/fpga_mnist
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3924 D:\Project\vivado_pro\fpga\fpga_mnist\fpga_mnist.xpr
+# Log file: D:/Project/vivado_pro/fpga/fpga_mnist/vivado.log
+# Journal file: D:/Project/vivado_pro/fpga/fpga_mnist\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/vivado_pro/fpga/fpga_mnist/fpga_mnist.xpr
+open_bd_design {D:/Project/vivado_pro/fpga/fpga_mnist/fpga_mnist.srcs/sources_1/bd/design_1/design_1.bd}
+update_compile_order -fileset sources_1

@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Aug  2 23:53:14 2020
+# Process ID: 2728
+# Current directory: D:/Project/vivado_pro/fpga/fpga_mnist/fpga_mnist.runs/design_1_auto_pc_2_synth_1
+# Command line: vivado.exe -log design_1_auto_pc_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_pc_2.tcl
+# Log file: D:/Project/vivado_pro/fpga/fpga_mnist/fpga_mnist.runs/design_1_auto_pc_2_synth_1/design_1_auto_pc_2.vds
+# Journal file: D:/Project/vivado_pro/fpga/fpga_mnist/fpga_mnist.runs/design_1_auto_pc_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_auto_pc_2.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/BaiduNetdiskDownload/source2/PYNQ/hls/conv_core/solution2/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/BaiduNetdiskDownload/source2/PYNQ/hls/pool_core/solution2/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_auto_pc_2, cache-ID = ca48cf23925fcf98.
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  2 23:53:21 2020...

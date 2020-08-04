@@ -1,0 +1,518 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_Conv_top -prj Conv.prj --lib ieee_proposed=./ieee_proposed -s Conv -debug wave 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/AESL_axi_master_gmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_gmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/AESL_axi_slave_AXILiteS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_AXILiteS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_Conv_top
+INFO: [VRFC 10-2458] undeclared symbol ap_clk, assumed default net type wire [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv.autotb.v:218]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst_n, assumed default net type wire [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv.autotb.v:219]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst_n_n, assumed default net type wire [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv.autotb.v:269]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_AXILiteS_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_AXILiteS_s_axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_fadd_32ns_32ns_32_5_full_dsp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_fadd_32ns_32ns_32_5_full_dsp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_fcmp_32ns_32ns_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_fcmp_32ns_32ns_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_fmul_32ns_32ns_32_4_max_dsp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_fmul_32ns_32ns_32_4_max_dsp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_gmem_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_gmem_m_axi
+INFO: [VRFC 10-311] analyzing module Conv_gmem_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module Conv_gmem_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module Conv_gmem_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module Conv_gmem_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module Conv_gmem_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module Conv_gmem_m_axi_read
+INFO: [VRFC 10-311] analyzing module Conv_gmem_m_axi_write
+INFO: [VRFC 10-2458] undeclared symbol data_valid, assumed default net type wire [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_gmem_m_axi.v:2034]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_mac_muladd_16ns_16s_48ns_48_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_mac_muladd_16ns_16s_48ns_48_1_DSP48_2
+INFO: [VRFC 10-311] analyzing module Conv_mac_muladd_16ns_16s_48ns_48_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_mul_32ns_16ns_48_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_mul_32ns_16ns_48_3_Mul3S_0
+INFO: [VRFC 10-311] analyzing module Conv_mul_32ns_16ns_48_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_mul_32s_16ns_48_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_mul_32s_16ns_48_3_Mul3S_1
+INFO: [VRFC 10-311] analyzing module Conv_mul_32s_16ns_48_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_mul_mul_16ns_16ns_32_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_mul_mul_16ns_16ns_32_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module Conv_mul_mul_16ns_16ns_32_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_mul_mul_16ns_16s_32_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_mul_mul_16ns_16s_32_1_DSP48_1
+INFO: [VRFC 10-311] analyzing module Conv_mul_mul_16ns_16s_32_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv_sdiv_19s_9ns_19_23_seq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_sdiv_19s_9ns_19_23_seq_div_u
+INFO: [VRFC 10-311] analyzing module Conv_sdiv_19s_9ns_19_23_seq_div
+INFO: [VRFC 10-311] analyzing module Conv_sdiv_19s_9ns_19_23_seq
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xbip_utils_v3_0_6/xbip_utils_v3_0_vh_rfs.vhd" into library xbip_utils_v3_0_6
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/axi_utils_v2_0_2/axi_utils_v2_0_vh_rfs.vhd" into library axi_utils_v2_0_2
+INFO: [VRFC 10-307] analyzing entity glb_srl_fifo
+INFO: [VRFC 10-307] analyzing entity glb_ifx_slave
+INFO: [VRFC 10-307] analyzing entity glb_ifx_master
+INFO: [VRFC 10-307] analyzing entity axi_slave_2to1
+INFO: [VRFC 10-307] analyzing entity axi_slave_3to1
+INFO: [VRFC 10-307] analyzing entity axi_slave_4to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xbip_pipe_v3_0_2/xbip_pipe_v3_0_vh_rfs.vhd" into library xbip_pipe_v3_0_2
+INFO: [VRFC 10-307] analyzing entity xbip_pipe_v3_0_2_viv
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xbip_pipe_v3_0_2/xbip_pipe_v3_0.vhd" into library xbip_pipe_v3_0_2
+INFO: [VRFC 10-307] analyzing entity xbip_pipe_v3_0_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xbip_dsp48_wrapper_v3_0_4/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd" into library xbip_dsp48_wrapper_v3_0_4
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48a_wrapper_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48a1_wrapper_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48e_wrapper_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48e1_wrapper_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48e2_wrapper_v3_0
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_wrapper_v3_0_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xbip_dsp48_addsub_v3_0_2/xbip_dsp48_addsub_v3_0_vh_rfs.vhd" into library xbip_dsp48_addsub_v3_0_2
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_addsub_rtl
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_addsub_synth
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_addsub_v3_0_2_viv
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xbip_dsp48_addsub_v3_0_2/xbip_dsp48_addsub_v3_0.vhd" into library xbip_dsp48_addsub_v3_0_2
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_addsub_v3_0_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xbip_dsp48_multadd_v3_0_2/xbip_dsp48_multadd_v3_0_vh_rfs.vhd" into library xbip_dsp48_multadd_v3_0_2
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_multadd_rtl
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_multadd_synth
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_multadd_v3_0_2_viv
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xbip_dsp48_multadd_v3_0_2/xbip_dsp48_multadd_v3_0.vhd" into library xbip_dsp48_multadd_v3_0_2
+INFO: [VRFC 10-307] analyzing entity xbip_dsp48_multadd_v3_0_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xbip_bram18k_v3_0_2/xbip_bram18k_v3_0_vh_rfs.vhd" into library xbip_bram18k_v3_0_2
+INFO: [VRFC 10-307] analyzing entity xbip_bram18k_synth
+INFO: [VRFC 10-307] analyzing entity xbip_bram18k_rtl
+INFO: [VRFC 10-307] analyzing entity xbip_bram18k_v3_0_2_viv
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xbip_bram18k_v3_0_2/xbip_bram18k_v3_0.vhd" into library xbip_bram18k_v3_0_2
+INFO: [VRFC 10-307] analyzing entity xbip_bram18k_v3_0_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/mult_gen_v12_0_11/mult_gen_v12_0_vh_rfs.vhd" into library mult_gen_v12_0_11
+INFO: [VRFC 10-307] analyzing entity op_resize
+INFO: [VRFC 10-307] analyzing entity delay_line
+INFO: [VRFC 10-307] analyzing entity cc_compare
+INFO: [VRFC 10-307] analyzing entity luts
+INFO: [VRFC 10-307] analyzing entity mult18
+INFO: [VRFC 10-307] analyzing entity dsp
+INFO: [VRFC 10-307] analyzing entity hybrid
+INFO: [VRFC 10-307] analyzing entity ccm_dist_mem
+INFO: [VRFC 10-307] analyzing entity ccm_sp_block_mem
+INFO: [VRFC 10-307] analyzing entity ccm_dp_block_mem
+INFO: [VRFC 10-307] analyzing entity ccm_syncmem
+INFO: [VRFC 10-307] analyzing entity ccm_scaled_adder
+INFO: [VRFC 10-307] analyzing entity ccm_operation
+INFO: [VRFC 10-307] analyzing entity ccm
+INFO: [VRFC 10-307] analyzing entity three_input_adder
+INFO: [VRFC 10-307] analyzing entity multmxn_lut6
+INFO: [VRFC 10-307] analyzing entity mult_gen_v12_0_11_viv
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/mult_gen_v12_0_11/mult_gen_v12_0.vhd" into library mult_gen_v12_0_11
+INFO: [VRFC 10-307] analyzing entity mult_gen_v12_0_11
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd" into library floating_point_v7_1_2
+INFO: [VRFC 10-307] analyzing entity fdgS
+INFO: [VRFC 10-307] analyzing entity fdgW
+INFO: [VRFC 10-307] analyzing entity lutV
+INFO: [VRFC 10-307] analyzing entity lutS
+INFO: [VRFC 10-307] analyzing entity lutN
+INFO: [VRFC 10-307] analyzing entity lutNMuxS
+INFO: [VRFC 10-307] analyzing entity srl16eS
+INFO: [VRFC 10-307] analyzing entity delayS
+INFO: [VRFC 10-307] analyzing entity andW
+INFO: [VRFC 10-307] analyzing entity orW
+INFO: [VRFC 10-307] analyzing entity srl16ew
+INFO: [VRFC 10-307] analyzing entity delayW
+INFO: [VRFC 10-307] analyzing entity compW
+INFO: [VRFC 10-307] analyzing entity addSubW
+INFO: [VRFC 10-307] analyzing entity equalW
+INFO: [VRFC 10-307] analyzing entity addW
+INFO: [VRFC 10-307] analyzing entity mult18
+INFO: [VRFC 10-307] analyzing entity cntrlgen
+INFO: [VRFC 10-307] analyzing entity cntrlgen2
+INFO: [VRFC 10-307] analyzing entity ppGenR8
+INFO: [VRFC 10-307] analyzing entity ppGenR8Msb2
+INFO: [VRFC 10-307] analyzing entity addSubShGW
+INFO: [VRFC 10-307] analyzing entity addSubShFW
+INFO: [VRFC 10-307] analyzing entity vmRoundW
+INFO: [VRFC 10-307] analyzing entity vmsMultCore
+INFO: [VRFC 10-307] analyzing entity wideEmbedMult4
+INFO: [VRFC 10-307] analyzing entity wideEmbedMult16
+INFO: [VRFC 10-307] analyzing entity wideEmbedMult
+INFO: [VRFC 10-307] analyzing entity dsp48MultALine
+INFO: [VRFC 10-307] analyzing entity dsp48Mult
+INFO: [VRFC 10-307] analyzing entity xMult
+INFO: [VRFC 10-307] analyzing entity delay
+INFO: [VRFC 10-307] analyzing entity delay_s
+INFO: [VRFC 10-307] analyzing entity mux_bus2
+INFO: [VRFC 10-307] analyzing entity twos_comp
+INFO: [VRFC 10-307] analyzing entity carry_chain
+INFO: [VRFC 10-307] analyzing entity mux4
+INFO: [VRFC 10-307] analyzing entity compare_gt
+INFO: [VRFC 10-307] analyzing entity compare_eq_im
+INFO: [VRFC 10-307] analyzing entity compare_ne_im
+INFO: [VRFC 10-307] analyzing entity compare_eq
+INFO: [VRFC 10-307] analyzing entity compare
+INFO: [VRFC 10-307] analyzing entity special_detect
+INFO: [VRFC 10-307] analyzing entity norm_zero_det
+INFO: [VRFC 10-307] analyzing entity zero_det_sel
+INFO: [VRFC 10-307] analyzing entity shift_msb_first
+INFO: [VRFC 10-307] analyzing entity flt_dec_op
+INFO: [VRFC 10-307] analyzing entity flt_dec_op_lat
+INFO: [VRFC 10-307] analyzing entity lead_zero_encode
+INFO: [VRFC 10-307] analyzing entity lead_zero_encode_shift
+INFO: [VRFC 10-307] analyzing entity dsp48e1_wrapper
+INFO: [VRFC 10-307] analyzing entity dsp48e2_wrapper
+INFO: [VRFC 10-307] analyzing entity addsub_logic
+INFO: [VRFC 10-307] analyzing entity addsub_dsp
+INFO: [VRFC 10-307] analyzing entity addsub
+INFO: [VRFC 10-307] analyzing entity flt_round_bit
+INFO: [VRFC 10-307] analyzing entity renorm_and_round_logic
+INFO: [VRFC 10-307] analyzing entity norm_and_round_dsp48e1_sgl
+INFO: [VRFC 10-307] analyzing entity norm_and_round_logic
+INFO: [VRFC 10-307] analyzing entity alignment
+INFO: [VRFC 10-307] analyzing entity normalize
+INFO: [VRFC 10-307] analyzing entity align_add_dsp48e1_sgl
+INFO: [VRFC 10-307] analyzing entity align_add
+INFO: [VRFC 10-307] analyzing entity multadd
+INFO: [VRFC 10-307] analyzing entity compare_ge
+INFO: [VRFC 10-307] analyzing entity flt_mant_lookup_hp
+INFO: [VRFC 10-307] analyzing entity fix_to_flt_conv_exp
+INFO: [VRFC 10-307] analyzing entity fix_to_flt_conv
+INFO: [VRFC 10-307] analyzing entity flt_to_fix_conv
+INFO: [VRFC 10-307] analyzing entity flt_to_flt_conv_exp
+INFO: [VRFC 10-307] analyzing entity flt_to_flt_conv
+INFO: [VRFC 10-307] analyzing entity fp_cmp
+INFO: [VRFC 10-307] analyzing entity flt_sqrt_mant_addsub
+INFO: [VRFC 10-307] analyzing entity flt_sqrt_mant
+INFO: [VRFC 10-307] analyzing entity flt_sqrt_exp
+INFO: [VRFC 10-307] analyzing entity flt_sqrt
+INFO: [VRFC 10-307] analyzing entity flt_div_mant_addsub
+INFO: [VRFC 10-307] analyzing entity flt_div_mant
+INFO: [VRFC 10-307] analyzing entity flt_div_exp
+INFO: [VRFC 10-307] analyzing entity flt_div
+INFO: [VRFC 10-307] analyzing entity fix_mult_dsp48e1_lat_dbl
+INFO: [VRFC 10-307] analyzing entity fix_mult_dsp48e1_sgl
+INFO: [VRFC 10-307] analyzing entity fix_mult_dsp48e1_dbl
+INFO: [VRFC 10-307] analyzing entity fix_mult_dsp48e2_dbl
+INFO: [VRFC 10-307] analyzing entity fix_mult_qq
+INFO: [VRFC 10-307] analyzing entity fix_mult_xx
+INFO: [VRFC 10-307] analyzing entity fix_mult
+INFO: [VRFC 10-307] analyzing entity flt_round_dsp_opt_full
+INFO: [VRFC 10-307] analyzing entity flt_round_dsp_opt_part
+INFO: [VRFC 10-307] analyzing entity flt_mult_round
+INFO: [VRFC 10-307] analyzing entity flt_mult_exp
+INFO: [VRFC 10-307] analyzing entity flt_mult
+INFO: [VRFC 10-307] analyzing entity flt_add_exp
+INFO: [VRFC 10-307] analyzing entity flt_add_logic
+INFO: [VRFC 10-307] analyzing entity flt_add_lat_align_add
+INFO: [VRFC 10-307] analyzing entity flt_add_lat_norm
+INFO: [VRFC 10-307] analyzing entity flt_add_lat_exp
+INFO: [VRFC 10-307] analyzing entity flt_add_lat
+INFO: [VRFC 10-307] analyzing entity align_add_dsp48e1_hp
+INFO: [VRFC 10-307] analyzing entity lead_zero_encode_shift_hp
+INFO: [VRFC 10-307] analyzing entity norm_and_round_dsp48e1_hp
+INFO: [VRFC 10-307] analyzing entity flt_add_exp_hp
+INFO: [VRFC 10-307] analyzing entity flt_add_exp_sp
+INFO: [VRFC 10-307] analyzing entity flt_add_dsp
+INFO: [VRFC 10-307] analyzing entity flt_add
+INFO: [VRFC 10-307] analyzing entity flt_recip_approx
+INFO: [VRFC 10-307] analyzing entity flt_recip_nr
+INFO: [VRFC 10-307] analyzing entity flt_recip_reduction_calc
+INFO: [VRFC 10-307] analyzing entity flt_recip_eval
+INFO: [VRFC 10-307] analyzing entity flt_recip_postprocess
+INFO: [VRFC 10-307] analyzing entity flt_recip_specialcase
+INFO: [VRFC 10-307] analyzing entity flt_recip_recomb
+INFO: [VRFC 10-307] analyzing entity flt_recipsqrt_dp_m_calc
+INFO: [VRFC 10-307] analyzing entity flt_recip
+INFO: [VRFC 10-307] analyzing entity flt_log_addsub
+INFO: [VRFC 10-307] analyzing entity flt_log_addsub_taylor_fabric
+INFO: [VRFC 10-307] analyzing entity flt_log_addsub_taylor_combiner_fabric
+INFO: [VRFC 10-307] analyzing entity flt_log_single_one_detect
+INFO: [VRFC 10-307] analyzing entity flt_log_inproc
+INFO: [VRFC 10-307] analyzing entity flt_log_exp
+INFO: [VRFC 10-307] analyzing entity flt_log_L_block_memory
+INFO: [VRFC 10-307] analyzing entity flt_pt_log_L_block
+INFO: [VRFC 10-307] analyzing entity flt_log_rr_mul_iter
+INFO: [VRFC 10-307] analyzing entity flt_log_rr_mul
+INFO: [VRFC 10-307] analyzing entity flt_log_rr
+INFO: [VRFC 10-307] analyzing entity flt_log_taylor
+INFO: [VRFC 10-307] analyzing entity flt_log_shift_msb_first
+INFO: [VRFC 10-307] analyzing entity flt_log_lead_zero_encode
+INFO: [VRFC 10-307] analyzing entity flt_log_normalize
+INFO: [VRFC 10-307] analyzing entity flt_log_norm
+INFO: [VRFC 10-307] analyzing entity flt_log_rnd
+INFO: [VRFC 10-307] analyzing entity flt_log_specialcase
+INFO: [VRFC 10-307] analyzing entity flt_log_recomb
+INFO: [VRFC 10-307] analyzing entity flt_log
+INFO: [VRFC 10-307] analyzing entity flt_exp_specialcase
+INFO: [VRFC 10-307] analyzing entity flt_exp_recomb
+INFO: [VRFC 10-307] analyzing entity flt_exp_ccm
+INFO: [VRFC 10-307] analyzing entity flt_exp_e2A
+INFO: [VRFC 10-307] analyzing entity flt_exp_dp_poly
+INFO: [VRFC 10-307] analyzing entity flt_exp_e2zmzm1
+INFO: [VRFC 10-307] analyzing entity flt_exp_hp
+INFO: [VRFC 10-307] analyzing entity flt_exp
+INFO: [VRFC 10-307] analyzing entity flt_fma_specialcase
+INFO: [VRFC 10-307] analyzing entity flt_fma_round_bit
+INFO: [VRFC 10-307] analyzing entity flt_fma_renorm_and_round_logic
+INFO: [VRFC 10-307] analyzing entity flt_fma_special_detect
+INFO: [VRFC 10-307] analyzing entity flt_fma_add_exp
+INFO: [VRFC 10-307] analyzing entity flt_fma_alignment
+INFO: [VRFC 10-307] analyzing entity flt_fma_addsub_dsp1
+INFO: [VRFC 10-307] analyzing entity flt_fma_addsub_dsp2
+INFO: [VRFC 10-307] analyzing entity flt_fma_addsub
+INFO: [VRFC 10-307] analyzing entity flt_fma_align_add
+INFO: [VRFC 10-307] analyzing entity flt_fma_norm_logic
+INFO: [VRFC 10-307] analyzing entity flt_fma_add_logic
+INFO: [VRFC 10-307] analyzing entity flt_fma_add
+INFO: [VRFC 10-307] analyzing entity flt_fma_mul
+INFO: [VRFC 10-307] analyzing entity flt_fma
+INFO: [VRFC 10-307] analyzing entity flt_accum_flt_to_fix
+INFO: [VRFC 10-307] analyzing entity flt_accum_bit_encode
+INFO: [VRFC 10-307] analyzing entity flt_accum
+INFO: [VRFC 10-307] analyzing entity floating_point_v7_1_2_viv
+INFO: [VRFC 10-307] analyzing entity floating_point_v7_1_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xil_defaultlib/Conv_ap_fadd_3_full_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Conv_ap_fadd_3_full_dsp_32
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xil_defaultlib/Conv_ap_fcmp_0_no_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Conv_ap_fcmp_0_no_dsp_32
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xil_defaultlib/Conv_ap_fmul_2_max_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Conv_ap_fmul_2_max_dsp_32
+Starting static elaboration
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/mult_gen_v12_0_11/mult_gen_v12_0_vh_rfs.vhd:2255]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/mult_gen_v12_0_11/mult_gen_v12_0_vh_rfs.vhd:2240]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:90362]
+WARNING: [VRFC 10-1303] range is empty (null range) [ip/xbip_pipe_v3_0_2/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [ip/xbip_pipe_v3_0_2/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [ip/xbip_pipe_v3_0_2/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [ip/xbip_pipe_v3_0_2/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [ip/xbip_pipe_v3_0_2/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [ip/xbip_pipe_v3_0_2/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [ip/xbip_pipe_v3_0_2/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:13629]
+WARNING: [VRFC 10-982] library name floating_point_v7_1_2 of instantiated unit conflicts with visible identifier [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xil_defaultlib/Conv_ap_fadd_3_full_dsp_32.vhd:189]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:90362]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [ip/xbip_pipe_v3_0_2/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [ip/xbip_pipe_v3_0_2/xbip_pipe_v3_0_vh_rfs.vhd:375]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:12604]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:13629]
+WARNING: [VRFC 10-982] library name floating_point_v7_1_2 of instantiated unit conflicts with visible identifier [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xil_defaultlib/Conv_ap_fmul_2_max_dsp_32.vhd:189]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:90362]
+WARNING: [VRFC 10-1303] range is empty (null range) [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/floating_point_v7_1_2/floating_point_v7_1_vh_rfs.vhd:13629]
+WARNING: [VRFC 10-982] library name floating_point_v7_1_2 of instantiated unit conflicts with visible identifier [C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/ip/xil_defaultlib/Conv_ap_fcmp_0_no_dsp_32.vhd:189]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package floating_point_v7_1_2.floating_point_v7_1_2_viv_comp
+Compiling package std.textio
+Compiling package xbip_utils_v3_0_6.xbip_utils_v3_0_6_pkg
+Compiling package axi_utils_v2_0_2.axi_utils_v2_0_2_pkg
+Compiling package floating_point_v7_1_2.floating_point_v7_1_2_consts
+Compiling package ieee.math_real
+Compiling package floating_point_v7_1_2.floating_point_v7_1_2_exp_table_...
+Compiling package mult_gen_v12_0_11.mult_gen_v12_0_11_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package floating_point_v7_1_2.floating_point_v7_1_2_pkg
+Compiling package floating_point_v7_1_2.flt_utils
+Compiling package xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module xil_defaultlib.Conv_AXILiteS_s_axi(C_S_AXI_ADDR...
+Compiling module xil_defaultlib.Conv_gmem_m_axi_throttl_default
+Compiling module xil_defaultlib.Conv_gmem_m_axi_throttl(USED_FIX...
+Compiling module xil_defaultlib.Conv_gmem_m_axi_fifo(DATA_BITS=6...
+Compiling module xil_defaultlib.Conv_gmem_m_axi_buffer(DATA_WIDT...
+Compiling module xil_defaultlib.Conv_gmem_m_axi_fifo(DEPTH=5,DEP...
+Compiling module xil_defaultlib.Conv_gmem_m_axi_fifo(DATA_BITS=2...
+Compiling module xil_defaultlib.Conv_gmem_m_axi_fifo(DATA_BITS=2...
+Compiling module xil_defaultlib.Conv_gmem_m_axi_write(NUM_WRITE_...
+Compiling module xil_defaultlib.Conv_gmem_m_axi_buffer(DATA_WIDT...
+Compiling module xil_defaultlib.Conv_gmem_m_axi_reg_slice(N=34)
+Compiling module xil_defaultlib.Conv_gmem_m_axi_read(NUM_READ_OU...
+Compiling module xil_defaultlib.Conv_gmem_m_axi(NUM_READ_OUTSTAN...
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=7,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_2.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_2.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture struct of entity floating_point_v7_1_2.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=24,length=0,fast_in...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=16,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=4,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=48,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=24,length=0)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_2.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,c_wi...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [delay_default]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=13,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=27,length=0)\]
+Compiling architecture synth of entity floating_point_v7_1_2.align_add_dsp48e1_sgl [\align_add_dsp48e1_sgl(c_xdevice...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000001111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000000000...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=5,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_2.lead_zero_encode_shift [\lead_zero_encode_shift(ab_fw=24...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=3,length=0)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111110010101001011...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00010001010111110000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11101110101000001111...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=2)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=25,length=0)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(adreg=0,alumodereg=0,ca...]
+Compiling architecture rtl of entity floating_point_v7_1_2.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,c_wi...]
+Compiling architecture rtl of entity floating_point_v7_1_2.norm_and_round_dsp48e1_sgl [\norm_and_round_dsp48e1_sgl(c_mu...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10011001100110011001...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111000000001111...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=9,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_2.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=8,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=10)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=4,length=0,fast_inp...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fde_v of entity unisim.FDE [fde_default]
+Compiling architecture struct of entity floating_point_v7_1_2.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_2.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(fast_input=true)\]
+Compiling architecture rtl of entity floating_point_v7_1_2.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture struct of entity floating_point_v7_1_2.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_2.compare_gt [\compare_gt(c_xdevicefamily="zyn...]
+Compiling architecture synth of entity floating_point_v7_1_2.compare [\compare(c_xdevicefamily="zynq",...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=8)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=9)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=2,length=2,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(length=2,fast_input=true)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(length=0,fast_input=true)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=2,length=0,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=12,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_2.flt_add_exp_sp [\flt_add_exp_sp(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=23)\]
+Compiling architecture synth of entity floating_point_v7_1_2.flt_dec_op [\flt_dec_op(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity floating_point_v7_1_2.flt_add_dsp [\flt_add_dsp(c_xdevicefamily="zy...]
+Compiling architecture rtl of entity floating_point_v7_1_2.flt_add [\flt_add(c_xdevicefamily="zynq",...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=32,length=0)\]
+Compiling architecture xilinx of entity floating_point_v7_1_2.floating_point_v7_1_2_viv [\floating_point_v7_1_2_viv(c_xde...]
+Compiling architecture xilinx of entity floating_point_v7_1_2.floating_point_v7_1_2 [\floating_point_v7_1_2(c_xdevice...]
+Compiling architecture conv_ap_fadd_3_full_dsp_32_arch of entity xil_defaultlib.Conv_ap_fadd_3_full_dsp_32 [conv_ap_fadd_3_full_dsp_32_defau...]
+Compiling module xil_defaultlib.Conv_fadd_32ns_32ns_32_5_full_ds...
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=17,length=0)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_2.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,b_wi...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_2.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,b_wi...]
+Compiling architecture struct of entity floating_point_v7_1_2.fix_mult_dsp48e1_sgl [\fix_mult_dsp48e1_sgl(registers=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.fix_mult [\fix_mult(c_xdevicefamily="zynq"...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=8,length=0,fast_inp...]
+Compiling architecture struct of entity floating_point_v7_1_2.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture struct of entity floating_point_v7_1_2.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_2.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_2.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=2,fast_input=true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=4,fast_input=true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=3,length=0,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=14,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_2.flt_mult_exp [\flt_mult_exp(c_xdevicefamily="z...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=30,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=18,length=0)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_2.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=30,b_wi...]
+Compiling architecture struct of entity floating_point_v7_1_2.flt_round_dsp_opt_full [\flt_round_dsp_opt_full(c_xdevic...]
+Compiling architecture rtl of entity floating_point_v7_1_2.flt_mult_round [\flt_mult_round(c_xdevicefamily=...]
+Compiling architecture synth of entity floating_point_v7_1_2.flt_dec_op_lat [\flt_dec_op_lat(c_xdevicefamily=...]
+Compiling architecture rtl of entity floating_point_v7_1_2.flt_mult [\flt_mult(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity floating_point_v7_1_2.floating_point_v7_1_2_viv [\floating_point_v7_1_2_viv(c_xde...]
+Compiling architecture xilinx of entity floating_point_v7_1_2.floating_point_v7_1_2 [\floating_point_v7_1_2(c_xdevice...]
+Compiling architecture conv_ap_fmul_2_max_dsp_32_arch of entity xil_defaultlib.Conv_ap_fmul_2_max_dsp_32 [conv_ap_fmul_2_max_dsp_32_defaul...]
+Compiling module xil_defaultlib.Conv_fmul_32ns_32ns_32_4_max_dsp
+Compiling architecture struct of entity floating_point_v7_1_2.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_2.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture synth of entity floating_point_v7_1_2.compare_ne_im [\compare_ne_im(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=2,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_2.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_2.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_2.delay [\delay(width=11,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_2.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_2.compare_eq [\compare_eq(c_xdevicefamily="zyn...]
+Compiling architecture struct of entity floating_point_v7_1_2.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_2.compare_gt [\compare_gt(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity floating_point_v7_1_2.fp_cmp [\fp_cmp(c_xdevicefamily="zynq",c...]
+Compiling architecture xilinx of entity floating_point_v7_1_2.floating_point_v7_1_2_viv [\floating_point_v7_1_2_viv(c_xde...]
+Compiling architecture xilinx of entity floating_point_v7_1_2.floating_point_v7_1_2 [\floating_point_v7_1_2(c_xdevice...]
+Compiling architecture conv_ap_fcmp_0_no_dsp_32_arch of entity xil_defaultlib.Conv_ap_fcmp_0_no_dsp_32 [conv_ap_fcmp_0_no_dsp_32_default]
+Compiling module xil_defaultlib.Conv_fcmp_32ns_32ns_1_1(ID=1)
+Compiling module xil_defaultlib.Conv_sdiv_19s_9ns_19_23_seq_div_...
+Compiling module xil_defaultlib.Conv_sdiv_19s_9ns_19_23_seq_div(...
+Compiling module xil_defaultlib.Conv_sdiv_19s_9ns_19_23_seq(ID=1...
+Compiling module xil_defaultlib.Conv_mul_32ns_16ns_48_3_Mul3S_0
+Compiling module xil_defaultlib.Conv_mul_32ns_16ns_48_3(ID=1,NUM...
+Compiling module xil_defaultlib.Conv_mul_32s_16ns_48_3_Mul3S_1
+Compiling module xil_defaultlib.Conv_mul_32s_16ns_48_3(ID=1,NUM_...
+Compiling module xil_defaultlib.Conv_mul_mul_16ns_16ns_32_1_DSP4...
+Compiling module xil_defaultlib.Conv_mul_mul_16ns_16ns_32_1(ID=1...
+Compiling module xil_defaultlib.Conv_mul_mul_16ns_16s_32_1_DSP48...
+Compiling module xil_defaultlib.Conv_mul_mul_16ns_16s_32_1(ID=1,...
+Compiling module xil_defaultlib.Conv_mac_muladd_16ns_16s_48ns_48...
+Compiling module xil_defaultlib.Conv_mac_muladd_16ns_16s_48ns_48...
+Compiling module xil_defaultlib.Conv_default
+Compiling module xil_defaultlib.AESL_axi_master_gmem
+Compiling module xil_defaultlib.AESL_axi_slave_AXILiteS
+Compiling module xil_defaultlib.apatb_Conv_top
+Built simulation snapshot Conv

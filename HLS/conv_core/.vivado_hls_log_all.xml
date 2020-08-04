@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [HLS 200-40] In file included from conv_core/conv_core.cpp:1:&#xD;&#xA;conv_core/conv_core.cpp:68:16: warning: &amp; has lower precedence than &lt;; &lt; will be evaluated first [-Wparentheses]&#xD;&#xA;    if(relu_en &amp; sum&lt;0)&#xD;&#xA;               ^~~~~~~&#xD;&#xA;conv_core/conv_core.cpp:68:16: note: place parentheses around the &lt; expression to silence this warning&#xD;&#xA;    if(relu_en &amp; sum&lt;0)&#xD;&#xA;               ^&#xD;&#xA;                 (    )&#xD;&#xA;conv_core/conv_core.cpp:68:16: note: place parentheses around the &amp; expression to evaluate it first&#xD;&#xA;    if(relu_en &amp; sum&lt;0)&#xD;&#xA;               ^&#xD;&#xA;       (            )&#xD;&#xA;1 warning generated." projectName="conv_core" solutionName="solution2" date="2020-08-02T23:25:07.000+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] In file included from conv_core/conv_core.cpp:1:&#xD;&#xA;conv_core/conv_core.cpp:68:16: warning: &amp; has lower precedence than &lt;; &lt; will be evaluated first [-Wparentheses]&#xD;&#xA;    if(relu_en &amp; sum&lt;0)&#xD;&#xA;               ^~~~~~~&#xD;&#xA;conv_core/conv_core.cpp:68:16: note: place parentheses around the &lt; expression to silence this warning&#xD;&#xA;    if(relu_en &amp; sum&lt;0)&#xD;&#xA;               ^&#xD;&#xA;                 (    )&#xD;&#xA;conv_core/conv_core.cpp:68:16: note: place parentheses around the &amp; expression to evaluate it first&#xD;&#xA;    if(relu_en &amp; sum&lt;0)&#xD;&#xA;               ^&#xD;&#xA;       (            )&#xD;&#xA;1 warning generated." projectName="conv_core" solutionName="solution1" date="2020-08-02T23:08:25.023+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Conv_ap_fadd_3_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="conv_core" solutionName="solution2" date="2020-08-02T23:26:45.406+0800" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

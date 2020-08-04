@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Tue Oct 16 17:02:09 2018
+# Process ID: 8780
+# Current directory: C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog
+# Command line: vivado.exe -source open_wave.tcl
+# Log file: C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/vivado.log
+# Journal file: C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source open_wave.tcl
+# current_fileset
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.1/data/ip'.
+# open_wave_database Conv.wdb
+open_wave_config C:/Users/Caiyujie/Desktop/gongkaike/hls/conv_core/solution1/sim/verilog/Conv.wcfg
+add_wave {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_AWVALID}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_AWREADY}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_AWADDR}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_WVALID}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_WREADY}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_WDATA}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_WSTRB}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_ARVALID}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_ARREADY}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_ARADDR}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_RVALID}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_RREADY}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_RDATA}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_RRESP}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_BVALID}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_BREADY}} {{/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_BRESP}} 
+add_wave {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWVALID}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWREADY}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWADDR}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWID}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWLEN}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWSIZE}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWBURST}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWLOCK}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWCACHE}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWPROT}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWQOS}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWREGION}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWUSER}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WVALID}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WREADY}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WDATA}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WSTRB}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WLAST}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WID}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WUSER}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARVALID}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARREADY}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARADDR}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARID}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARLEN}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARSIZE}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARBURST}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARLOCK}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARCACHE}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARPROT}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARQOS}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARREGION}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARUSER}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RVALID}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RREADY}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RDATA}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RLAST}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RID}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RUSER}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RRESP}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_BVALID}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_BREADY}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_BRESP}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_BID}} {{/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_BUSER}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 16 17:03:21 2018...
