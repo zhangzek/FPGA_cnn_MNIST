@@ -4,51 +4,58 @@
 2020年新工科联盟-Xilinx暑期学校（Summer School）项目
 基于HLS的PYNQ开发
 
-## base
+## Base
 vivado 2018.3 and HLS
 ubuntu 16.4
 xc7z010clg400-1
-## detail
-### conv
-You should see the following lines
+## Detail
+### Conv
+1.AXI interface pragma
 ```
-[info] [51.767] List(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
-[info] [51.767] 
-[info] [51.767] sw: 
-[info] [51.767] 152  97   0    0   26  48   0    0    0    0  
-53   106  27   0   0   117  172  153  2    0  
-38   192  122  87  97  105  182  215  127  0  
-[info] [51.767] 
-[info] [51.856] jj reduce: 30
-[info] [51.856] sw1d: 30
-[info] [51.857] ===============ERROR: 0======================
-[info] [51.894] (0,2)
-[info] [51.894] total cnt: 14304
-[info] [51.894] error cnt: 0
-[info] [51.894] conv1 cnt: 4704
-[info] [51.894] conv2 cnt: 9600
-Enabling waves..
-Exit Code: 0
-[info] [59.453] RAN 94524 CYCLES PASSED
-[info] MNISTTester:
-[info] running with --generate-vcd-output on
-[info] - should create a vcd file from your test
-[info] ScalaTest
-[info] Run completed in 1 minute, 50 seconds.
-[info] Total number of tests run: 1
-[info] Suites: completed 1, aborted 0
-[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
-[info] All tests passed.
-[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
-[success] Total time: 113 s, completed 2019-6-17 15:18:59
+	#pragma HLS INTERFACE m_axi depth=5000000000 port=feature_out offset=slave
+	#pragma HLS INTERFACE m_axi depth=5000000000 port=bias offset=slave
+	#pragma HLS INTERFACE m_axi depth=5000000000 port=W offset=slave
+	#pragma HLS INTERFACE m_axi depth=5000000000 port=feature_in offset=slave
+	#pragma HLS INTERFACE s_axilite port=relu_en
+	#pragma HLS INTERFACE s_axilite port=CHout
+	#pragma HLS INTERFACE s_axilite port=Sx
+	#pragma HLS INTERFACE s_axilite port=Hin
+	#pragma HLS INTERFACE s_axilite port=CHin
+	#pragma HLS INTERFACE s_axilite port=Kx
+	#pragma HLS INTERFACE s_axilite port=mode
+	#pragma HLS INTERFACE s_axilite port=Sy
+	#pragma HLS INTERFACE s_axilite port=Ky
+	#pragma HLS INTERFACE s_axilite port=Win
+	#pragma HLS INTERFACE s_axilite port=return
+
 ```
-If you see the above then...
-## result
+2.conv mode set:
+```
+MODE: 0:VALID
+      1:SAME
+```
+```
+	if(mode==0)
+	{
+		pad_x=0;pad_y=0;
+	}
+	else
+	{
+		pad_x=(Kx-1)/2;pad_y=(Ky-1)/2;
+	}
+```
+## How to do
+```
+ssh xilinx@192.168.2.99
+su
+cd ../overlay/mnist/
+python3 fpga_mnist.py
+```
+
+## Result
 ![](https://github.com/zhangzek/FPGA_cnn_MNIST/blob/master/result.png)
 ## Utilization
 ![](https://github.com/zhangzek/FPGA_cnn_MNIST/blob/master/utili1.png)
 ## Functional Simulation
-
-## RTL Synthesis
 
 ## References
