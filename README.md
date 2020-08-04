@@ -11,7 +11,7 @@ ubuntu 16.4
 ## result
 ![](https://github.com/zhangzek/FPGA_cnn_MNIST/blob/master/result.png)
 ## Utilization
-![](https://github.com/zhangzek/FPGA_cnn_MNIST/blob/master/utili.png)
+![](https://github.com/zhangzek/FPGA_cnn_MNIST/blob/master/utili1.png)
 ### Functional Simulation
 
 ### RTL Synthesis
