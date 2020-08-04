@@ -5,8 +5,8 @@
 基于HLS的PYNQ开发
 
 ## Base
-vivado 2018.3 and HLS
-ubuntu 16.4
+vivado 2018.3 and HLS、
+ubuntu 16.4、
 xc7z010clg400-1
 ## Detail
 ### Conv
