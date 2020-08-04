@@ -134,3 +134,4 @@ python3 fpga_mnist.py
 ## Functional Simulation
 
 ## References
+reference too many and thanks Together
