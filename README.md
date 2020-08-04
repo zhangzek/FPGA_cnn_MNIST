@@ -7,6 +7,7 @@
 ## base
 vivado 2018.3 and HLS
 ubuntu 16.4
+xc7z010clg400-1
 
 ## result
 ![](https://github.com/zhangzek/FPGA_cnn_MNIST/blob/master/result.png)
