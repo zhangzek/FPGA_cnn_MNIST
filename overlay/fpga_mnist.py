@@ -255,11 +255,8 @@ for i in range(OUT_CH4):
 
 print("Finish initial")
 
-#while(1):
+
 for i in range(10):
-	#while(1):
-		#g=input("input enter to continue")
-		#break
 	image1=cv2.imread("/home/xilinx/jupyter_notebooks/mnist/overlay/mnist/data/test/%d.jpg"%(i),cv2.IMREAD_GRAYSCALE).astype(np.float32)
 	print("Read image")
 	image1=image1.reshape((IN_HEIGHT1,IN_WIDTH1,IN_CH1))
