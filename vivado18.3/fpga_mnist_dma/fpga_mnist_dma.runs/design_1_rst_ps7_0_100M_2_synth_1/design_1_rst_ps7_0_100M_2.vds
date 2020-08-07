@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Aug  7 10:45:29 2020
+# Process ID: 12552
+# Current directory: D:/Project/vivado_pro/fpga/fpga_mnist_dma/fpga_mnist_dma.runs/design_1_rst_ps7_0_100M_2_synth_1
+# Command line: vivado.exe -log design_1_rst_ps7_0_100M_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_rst_ps7_0_100M_2.tcl
+# Log file: D:/Project/vivado_pro/fpga/fpga_mnist_dma/fpga_mnist_dma.runs/design_1_rst_ps7_0_100M_2_synth_1/design_1_rst_ps7_0_100M_2.vds
+# Journal file: D:/Project/vivado_pro/fpga/fpga_mnist_dma/fpga_mnist_dma.runs/design_1_rst_ps7_0_100M_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_rst_ps7_0_100M_2.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/BaiduNetdiskDownload/source2/PYNQ/hls/conv_core/solution3/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/BaiduNetdiskDownload/source2/PYNQ/hls/pool_core/solution2/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 352.418 ; gain = 31.117
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_rst_ps7_0_100M_2, cache-ID = c17aa49b1b5ec9ff.
+INFO: [Common 17-206] Exiting Vivado at Fri Aug  7 10:45:43 2020...
